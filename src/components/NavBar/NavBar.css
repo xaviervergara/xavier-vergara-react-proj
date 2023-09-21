@@ -1,0 +1,10 @@
+.hola {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 3em;
+  flex-direction: column;
+  border: 1px solid white;
+  background-color: cadetblue;
+  margin: 1em;
+}
