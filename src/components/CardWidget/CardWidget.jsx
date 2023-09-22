@@ -6,25 +6,27 @@ import Typography from '@mui/material/Typography';
 import {  CardActionArea  } from '@mui/material';
 import './CardWidget.css'
 
-const CardWidget =(props)=> {
+
+//en vez de pasar props como arg y despues llamar prop.x, se destructura y se llama solo la variable
+const CardWidget =({producto, descripcion, precio, img})=> {
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardActionArea>
         <CardMedia
           component="img"
           // height="140"
-          image={props.img}
+          image={img}
           alt="green iguana"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-          {props.producto}
+          {producto}
           </Typography>
           <Typography  variant="body2" color="text.secondary">
-          {props.description}
+          {descripcion}
           </Typography>
           <Typography className='precio' variant="body2" color="text.secondary">
-          {props.precio}
+          {precio}
           </Typography>
         </CardContent>
       </CardActionArea>

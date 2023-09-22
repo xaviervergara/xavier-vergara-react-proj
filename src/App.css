@@ -3,12 +3,24 @@
   padding: 0;
 }
 
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
 body {
   background-color: rgb(42, 48, 48);
   color: white;
+  height: 100vh;
+  /* border: 5px solid green; */
 }
 
 .cardSection {
   display: flex;
   justify-content: space-evenly;
+  height: 70vh;
+  align-items: center;
+  /* border: 1px solid red; */
 }

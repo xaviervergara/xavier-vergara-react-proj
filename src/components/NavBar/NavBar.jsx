@@ -3,9 +3,12 @@ import './NavBar.css'
 //rafce (snippet)
 const NavBar = (props) => {
   return (
-    <div className='hola'>
-      <h1>{props.title}</h1>
-    </div>
+   <nav>
+      <div><a href="#">Home</a></div>
+      <div><a href="#">Producto</a></div>
+      <div><a href="#">Pregunta</a></div>
+      <div><a href="#">Contacto</a></div>
+   </nav>
   )
 }
 
