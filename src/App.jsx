@@ -1,6 +1,6 @@
 import './App.css'
 import NavBar from './components/NavBar/NavBar'
-import CardWidget from './components/CardWidget/CardWidget'
+import CardProduct from './components/CardProduct/CardProduct'
 import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 function App() {
   return (
@@ -9,15 +9,15 @@ function App() {
       <NavBar/>
     <ItemListContainer/>
       <div className='cardSection'>
-        <CardWidget  
+        <CardProduct  
         producto = 'Gan 356 Rs'
         descripcion = 'Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original' 
         img = 'https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=138&useDensity=true&width=1903&height=931&tipoEscala=contain'/>
-         <CardWidget  
+         <CardProduct  
         producto = 'Moyu meilong M 2020'
         descripcion = 'Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original' 
         img = 'https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=828&useDensity=true&width=1903&height=931&tipoEscala=contain'/>
-         <CardWidget  
+         <CardProduct  
         producto = 'Qiyi new thunderclap'
         descripcion = 'Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original' 
         img = 'https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=378&useDensity=true&width=1903&height=931&tipoEscala=contain'/>

@@ -4,13 +4,13 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import {  CardActionArea  } from '@mui/material';
-import './CardWidget.css'
+import './CardProduct.css'
 // import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import CartWidget from '../CartWidget/CartWidget';
 
 
 //en vez de pasar props como arg y despues llamar prop.x, se destructura y se llama solo la variable
-const CardWidget =({producto, descripcion, img})=> {
+const CardProduct =({producto, descripcion, img})=> {
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardActionArea>
@@ -41,4 +41,4 @@ const CardWidget =({producto, descripcion, img})=> {
 
 
 
-export default CardWidget;
+export default CardProduct;
