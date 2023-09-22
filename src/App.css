@@ -13,14 +13,14 @@ a {
 body {
   background-color: rgb(42, 48, 48);
   color: white;
-  height: 100vh;
+  height: 100%;
   /* border: 5px solid green; */
 }
 
 .cardSection {
   display: flex;
   justify-content: space-evenly;
-  height: 70vh;
+  /* height: 30vh; */
   align-items: center;
-  /* border: 1px solid red; */
+  /* border: 5px solid red; */
 }
