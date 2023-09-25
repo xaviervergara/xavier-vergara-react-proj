@@ -1,24 +1,33 @@
 nav {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   background-color: rgb(97, 172, 241);
   height: 4em;
   margin-bottom: 2em;
   width: 100%;
+  /* border: 1px solid red; */
 }
 
-nav div {
+.container-main {
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+  /* border: 1px solid orange; */
+}
+
+.container-item {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: rgb(255, 255, 255);
   border-radius: 15px;
-  height: 50%;
+  height: 2em;
   width: 6%;
+  /* border: 1px solid red; */
 }
 
-nav div a {
+.header-link {
   color: rgb(230, 96, 96);
   font-size: 1.5em;
   margin: 1em;

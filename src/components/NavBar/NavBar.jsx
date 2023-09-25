@@ -1,15 +1,35 @@
-import './NavBar.css'
+import './NavBar.css';
+import CartWidget from '../CartWidget/CartWidget';
 
 //rafce (snippet)
-const NavBar = (props) => {
+const NavBar = () => {
   return (
-   <nav>
-      <div><a href="#">Home</a></div>
-      <div><a href="#">Producto</a></div>
-      <div><a href="#">Pregunta</a></div>
-      <div><a href="#">Contacto</a></div>
-   </nav>
-  )
-}
+    <nav>
+      <div className="container-main">
+        <div className="container-item">
+          <a className="header-link" href="#">
+            Home
+          </a>
+        </div>
+        <div className="container-item">
+          <a className="header-link" href="#">
+            Producto
+          </a>
+        </div>
+        <div className="container-item">
+          <a className="header-link" href="#">
+            Pregunta
+          </a>
+        </div>
+        <div className="container-item">
+          <a className="header-link" href="#">
+            Contacto
+          </a>
+        </div>
+      </div>
+      <CartWidget />
+    </nav>
+  );
+};
 
-export default NavBar
+export default NavBar;

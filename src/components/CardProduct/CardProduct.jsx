@@ -1,16 +1,12 @@
-import * as React from 'react';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import {  CardActionArea  } from '@mui/material';
-import './CardProduct.css'
-// import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-import CartWidget from '../CartWidget/CartWidget';
-
+import { CardActionArea } from '@mui/material';
+import './CardProduct.css';
 
 //en vez de pasar props como arg y despues llamar prop.x, se destructura y se llama solo la variable
-const CardProduct =({producto, descripcion, img})=> {
+const CardProduct = ({ producto, descripcion, img, precio }) => {
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardActionArea>
@@ -22,23 +18,22 @@ const CardProduct =({producto, descripcion, img})=> {
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-          {producto}
+            {producto}
           </Typography>
-          <Typography  variant="body2" color="text.secondary">
-          {descripcion}
+          <Typography variant="body2" color="text.secondary">
+            {descripcion}
           </Typography>
-          <Typography  variant="body2" color="text.secondary">
-           <CartWidget className='icon'/> 
+          <Typography
+            variant="body2"
+            color="text.secondary"
+            style={{ color: 'green', fontWeight:'bold', fontSize:'1.3em', marginTop:'.5em' }}
+          >
+            {precio}
           </Typography>
-       
         </CardContent>
-      
       </CardActionArea>
-   
     </Card>
   );
-}
-
-
+};
 
 export default CardProduct;
