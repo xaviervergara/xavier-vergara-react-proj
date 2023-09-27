@@ -1,0 +1,8 @@
+.productSection {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  margin-top: 1em;
+  height: 30em;
+  /* border: 1px solid red; */
+}

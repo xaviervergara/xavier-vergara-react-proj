@@ -10,8 +10,6 @@ const handleIncrement = ()=>{
   setCounter(counter + 1) 
 }
 
-
-
   return (
     <div className="container-icon">
       <ShoppingCartIcon style={{ fontSize: '2em', color: 'white' }} />
