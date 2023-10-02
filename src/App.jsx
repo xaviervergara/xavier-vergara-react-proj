@@ -11,7 +11,10 @@ function App() {
 
       <ItemListContainer />
 
-     <ListProduct/>
+      <main>
+        MAIN
+        <ListProduct />
+      </main>
     </div>
   );
 }

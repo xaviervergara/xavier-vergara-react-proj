@@ -1,7 +1,7 @@
 import './ListProduct.css';
 import CardProduct from '../CardProduct/CardProduct';
 // import Grid from '@mui/material/Grid'; // Grid version 1
-// import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
+import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
 
 const productos = [
   {
@@ -104,7 +104,7 @@ const productos = [
 
 const ListProduct = () => {
   return (
-    <div className="productSection">
+    <Grid className="productSection" container>
       {productos.map((producto) => {
         return (
           <div key={producto.id}>
@@ -112,7 +112,7 @@ const ListProduct = () => {
           </div>
         );
       })}
-    </div>
+    </Grid>
   );
 };
 

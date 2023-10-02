@@ -1,12 +1,7 @@
 .productSection {
-  margin-right: 3em;
+  border: 1px solid white;
   display: flex;
+  justify-content: center;
   width: 80%;
-  position: absolute;
-  right: 0;
-  justify-content: space-evenly;
-  margin-top: 1em;
-  /* height: 8em; */
-  /* border: 1px solid red; */
-  flex-wrap: wrap;
+  color: aliceblue;
 }

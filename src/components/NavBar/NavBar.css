@@ -1,10 +1,9 @@
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.navBar {
+  /* align-items: flex-end; */
+  flex-direction: column;
+  justify-content: end;
   background-color: rgb(97, 172, 241);
-  height: 4em;
-  margin-bottom: 2em;
+  height: 18em;
   width: 100%;
   /* border: 1px solid red; */
 }
@@ -12,8 +11,9 @@ nav {
 .container-main {
   display: flex;
   justify-content: space-evenly;
-  width: 90%;
-  /* border: 1px solid orange; */
+  width: 100%;
+  border: 1px solid orange;
+  align-items: center;
 }
 
 .container-item {
@@ -21,9 +21,9 @@ nav {
   align-items: center;
   justify-content: center;
   background-color: rgb(255, 255, 255);
-  border-radius: 15px;
+  border-radius: 5px;
   height: 2em;
-  width: 6%;
+  /* width: 6%; */
   /* border: 1px solid red; */
 }
 
@@ -32,4 +32,17 @@ nav {
   font-size: 1.5em;
   margin: 1em;
   font-family: monospace;
+}
+
+.imgLogo {
+  height: 12em;
+  width: 12em;
+}
+
+.imgContainer {
+  width: 100%;
+  /* height: 50%; */
+  border: 1px solid red;
+  display: flex;
+  justify-content: flex-start;
 }
