@@ -1,8 +1,7 @@
 import './App.css';
-import NavBar from './components/NavBar/NavBar';
 // import CardProduct from './components/CardProduct/CardProduct';
+import NavBar from './components/NavBar/NavBar';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
-import ListProduct from './components/ListProduct/ListProduct';
 
 //REACT ROUTER DOM
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -16,17 +15,15 @@ function App() {
   return (
     <Router>
       <div>
+        <NavBar />
+
+        <main>
+          <ItemListContainer />
+        </main>
+
         <Routes>
           <Route path="/" element={<Productos />} />
         </Routes>
-
-        <NavBar />
-
-        <ItemListContainer />
-
-        <main>
-          <ListProduct />
-        </main>
       </div>
     </Router>
   );

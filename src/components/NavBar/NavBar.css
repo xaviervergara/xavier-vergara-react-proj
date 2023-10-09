@@ -20,19 +20,22 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  color: rgb(230, 96, 96);
   background-color: rgb(255, 255, 255);
   border-radius: 5px;
   height: 2em;
-  /* width: 6%; */
-  /* border: 1px solid red; */
+  font-size: 1.7em;
+  font-family: monospace;
+  font-weight: 500;
+  width: 8%;
 }
 
-.header-link {
+/* .header-link {
   color: rgb(230, 96, 96);
   font-size: 1.5em;
   margin: 1em;
   font-family: monospace;
-}
+} */
 
 .imgLogo {
   height: 12em;

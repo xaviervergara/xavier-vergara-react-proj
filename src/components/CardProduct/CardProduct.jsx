@@ -19,7 +19,7 @@ const CardProduct = ({ producto }) => {
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            {producto.producto}
+            {producto.nombre}
           </Typography>
           <Typography variant="body2" color="text.secondary">
             {producto.descripcion}

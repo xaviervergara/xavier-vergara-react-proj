@@ -1,20 +1,7 @@
-.contenedor-lista {
+.productSection {
+  border: 1px solid white;
   display: flex;
   justify-content: center;
-}
-
-ul {
-  background-color: rgb(255, 193, 22);
-  border-radius: 15px;
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 3em;
-  width: 77%;
-}
-
-li {
-  list-style-type: none;
-  color: rgb(230, 96, 96);
-  font-size: 2em;
-  font-family: monospace;
+  width: 80%;
+  color: aliceblue;
 }

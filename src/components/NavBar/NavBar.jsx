@@ -3,6 +3,8 @@ import CartWidget from '../CartWidget/CartWidget';
 import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
 import logo from '../../assets/logo-png.png';
 import SearchBar from '../SearchBar/SearchBar';
+import { Link } from 'react-router-dom';
+
 //rafce (snippet)
 const NavBar = () => {
   return (
@@ -13,26 +15,18 @@ const NavBar = () => {
       </Grid>
 
       <Grid className="container-main" container>
-        <Grid xs={1} className="container-item">
-          <a className="header-link" href="#">
-            Home
-          </a>
-        </Grid>
-        <Grid xs={1} className="container-item">
-          <a className="header-link" href="#">
-            Productos
-          </a>
-        </Grid>
-        <Grid xs={1} className="container-item">
-          <a className="header-link" href="#">
-            Pregunta
-          </a>
-        </Grid>
-        <Grid xs={1} className="container-item">
-          <a className="header-link" href="#">
-            Contacto
-          </a>
-        </Grid>
+        <Link className="container-item" to="/">
+          Home
+        </Link>
+        <Link className="container-item" to="/">
+          Productos
+        </Link>
+        <Link className="container-item" to="/">
+          Preguntas
+        </Link>
+        <Link className="container-item" to="/">
+          Contacto
+        </Link>
 
         <CartWidget xs={1} className="container-item" />
       </Grid>
