@@ -11,7 +11,7 @@ const ItemListContainer = () => {
       fetch('../../../public/productos.json')
         .then((response) => response.json())
         .then((data) => setProductos(data));
-    }, 2000);
+    }, 500);
   }, []);
 
   return (

@@ -10,7 +10,10 @@ const NavBar = () => {
   return (
     <Grid style={{ marginBottom: '1em' }} className="navBar" container>
       <Grid className="imgContainer" container>
-        <img className="imgLogo" src={logo} alt="" />
+        <Link to="/">
+          <img className="imgLogo" src={logo} alt="" />
+        </Link>
+
         <SearchBar />
       </Grid>
 
@@ -18,13 +21,13 @@ const NavBar = () => {
         <Link className="container-item" to="/">
           Home
         </Link>
-        <Link className="container-item" to="/">
+        <Link className="container-item" to="/productos">
           Productos
         </Link>
-        <Link className="container-item" to="/">
-          Preguntas
+        <Link className="container-item" to="/about">
+          About
         </Link>
-        <Link className="container-item" to="/">
+        <Link className="container-item" to="/contacto">
           Contacto
         </Link>
 

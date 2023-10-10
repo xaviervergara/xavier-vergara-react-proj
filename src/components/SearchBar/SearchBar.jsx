@@ -1,24 +1,36 @@
 import './SearchBar.css';
-
-import * as React from 'react';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
+import SearchIcon from '@mui/icons-material/Search';
+import InputAdornment from '@mui/material/InputAdornment';
 
 const SearchBar = () => {
   return (
     <Box
+      style={{
+        height: '4em',
+        display: 'flex',
+        alignItems: 'center',
+      }}
       component="form"
       sx={{
-        '& .MuiTextField-root': { m: 1, width: '25ch' },
+        '& .MuiTextField-root': { m: 1, width: '60ch' },
       }}
       noValidate
       autoComplete="off"
     >
       <div>
         <TextField
-          className="SearchBar"
+          InputProps={{
+            endAdornment: (
+              <InputAdornment position="end">
+                <SearchIcon style={{ color: 'yellow' }} />
+              </InputAdornment>
+            ),
+            classes: { root: 'borde-input' },
+          }}
           id="outlined-search"
-          //   label="Search field"
+          // label="Encontra lo que buscas! "
           type="search"
         />
       </div>

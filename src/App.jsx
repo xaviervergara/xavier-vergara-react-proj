@@ -1,7 +1,7 @@
 import './App.css';
 // import CardProduct from './components/CardProduct/CardProduct';
 import NavBar from './components/NavBar/NavBar';
-import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+// import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 
 //REACT ROUTER DOM
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -10,6 +10,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Home from './pages/Home';
 import Productos from './pages/Productos';
+import About from './pages/About';
+import Contacto from './pages/Contacto';
 
 function App() {
   return (
@@ -17,12 +19,11 @@ function App() {
       <div>
         <NavBar />
 
-        <main>
-          <ItemListContainer />
-        </main>
-
         <Routes>
-          <Route path="/" element={<Productos />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/Productos" element={<Productos />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contacto" element={<Contacto />} />
         </Routes>
       </div>
     </Router>

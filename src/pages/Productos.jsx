@@ -1,5 +1,11 @@
+import ItemListContainer from '../components/ItemListContainer/ItemListContainer';
+
 const Productos = () => {
-  return <h1>Productos</h1>;
+  return (
+    <main>
+      <ItemListContainer />
+    </main>
+  );
 };
 
 export default Productos;

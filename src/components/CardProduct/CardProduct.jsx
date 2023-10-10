@@ -7,6 +7,7 @@ import './CardProduct.css';
 
 //en vez de pasar props como arg y despues llamar prop.x, se destructura y se llama solo la variable
 const CardProduct = ({ producto }) => {
+  const { img, nombre, descripcion, precio } = producto;
   return (
     // <Card sx={{ maxWidth: 345 }}>
     <Card style={{ width: '20rem', margin: '1em', height: '23em' }}>
@@ -14,15 +15,15 @@ const CardProduct = ({ producto }) => {
         <CardMedia
           component="img"
           height="180"
-          image={producto.img}
+          image={img}
           alt="green iguana"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            {producto.nombre}
+            {nombre}
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            {producto.descripcion}
+            {descripcion}
           </Typography>
           <Typography
             variant="body2"
@@ -34,7 +35,7 @@ const CardProduct = ({ producto }) => {
               marginTop: '.5em',
             }}
           >
-            {producto.precio}
+            {precio}
           </Typography>
         </CardContent>
       </CardActionArea>
