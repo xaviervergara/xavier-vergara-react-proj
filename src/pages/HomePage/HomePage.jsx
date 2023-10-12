@@ -1,4 +1,4 @@
-const Contacto = () => {
+const HomePage = () => {
   return (
     <h1
       style={{
@@ -6,12 +6,12 @@ const Contacto = () => {
         justifyContent: 'center',
         fontFamily: 'monospace',
         fontSize: '3em',
-        color: 'yellow',
+        color: 'pink',
       }}
     >
-      Bienvenid@ a la página de contacto!
+      Bienvenid@ a la Homepage!
     </h1>
   );
 };
 
-export default Contacto;
+export default HomePage;

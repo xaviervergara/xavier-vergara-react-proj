@@ -8,10 +8,11 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 //PAGES
 
-import Home from './pages/Home';
-import Productos from './pages/Productos';
-import About from './pages/About';
-import Contacto from './pages/Contacto';
+import HomePage from './pages/HomePage/HomePage';
+import ProductosPage from './pages/ProductosPage/Productos';
+import AboutPage from './pages/AboutPage/AboutPage';
+import ContactoPage from './pages/ContactoPage/ContactoPage';
+import DetailPage from './pages/DetailPage/DetailPage';
 
 function App() {
   return (
@@ -20,10 +21,11 @@ function App() {
         <NavBar />
 
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/Productos" element={<Productos />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contacto" element={<Contacto />} />
+          <Route path="/" element={<HomePage />} />
+          <Route path="/productos" element={<ProductosPage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/contacto" element={<ContactoPage />} />
+          <Route path="/detail/:id" element={<DetailPage />} />
         </Routes>
       </div>
     </Router>

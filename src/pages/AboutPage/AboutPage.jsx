@@ -1,4 +1,4 @@
-const About = () => {
+const AboutPage = () => {
   return (
     <article style={{ display: 'flex', justifyContent: 'center' }}>
       <div
@@ -10,6 +10,9 @@ const About = () => {
           flexDirection: 'column',
           justifyContent: 'center',
           margin: '3em',
+          border: '1px solid orange',
+          borderRadius: '50px',
+          padding: '2em',
         }}
       >
         <h2
@@ -99,4 +102,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutPage;
