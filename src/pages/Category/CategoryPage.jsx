@@ -1,6 +1,6 @@
 import CardProduct from '../../components/CardProduct/CardProduct';
 import Grid from '@mui/material/Unstable_Grid2';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import './CategoryPage.css';
 
@@ -29,9 +29,11 @@ const CategoryPage = () => {
       <Grid className="grid-categorias">
         {productos.map((productos) => {
           return (
-            <div key={productos.id}>
-              <CardProduct producto={productos} />
-            </div>
+            <Link to={`/detail/${productos.id}`} key={productos.id}>
+              <div>
+                <CardProduct producto={productos} />
+              </div>
+            </Link>
           );
         })}
       </Grid>
