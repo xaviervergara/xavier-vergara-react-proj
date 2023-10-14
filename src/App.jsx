@@ -1,18 +1,19 @@
+//ESTILOS
 import './App.css';
-// import CardProduct from './components/CardProduct/CardProduct';
+
+//COMPONENTES
 import NavBar from './components/NavBar/NavBar';
-// import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 
 //REACT ROUTER DOM
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 //PAGES
-
 import HomePage from './pages/HomePage/HomePage';
 import ProductosPage from './pages/ProductosPage/Productos';
 import AboutPage from './pages/AboutPage/AboutPage';
 import ContactoPage from './pages/ContactoPage/ContactoPage';
 import DetailPage from './pages/DetailPage/DetailPage';
+import CategoryPage from './pages/Category/CategoryPage';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contacto" element={<ContactoPage />} />
           <Route path="/detail/:id" element={<DetailPage />} />
+          <Route path="/category/:categoryId" element={<CategoryPage />} />
         </Routes>
       </div>
     </Router>

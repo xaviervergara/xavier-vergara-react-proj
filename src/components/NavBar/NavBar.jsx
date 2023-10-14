@@ -3,6 +3,7 @@ import CartWidget from '../CartWidget/CartWidget';
 import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
 import logo from '../../assets/logo-png.png';
 import SearchBar from '../SearchBar/SearchBar';
+import DrawerMenu from '../DrawerMenu/DrawerMenu';
 import { Link } from 'react-router-dom';
 
 //rafce (snippet)
@@ -18,6 +19,7 @@ const NavBar = () => {
       </Grid>
 
       <Grid className="container-main" container>
+        <DrawerMenu />
         <Link className="container-item" to="/">
           Home
         </Link>
