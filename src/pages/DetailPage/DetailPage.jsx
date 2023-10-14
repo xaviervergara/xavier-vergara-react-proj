@@ -3,6 +3,7 @@ import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 // import asd from '../../../public/productos.json';
+import './DetailPage.css';
 
 const DetailPage = () => {
   let { id } = useParams();
@@ -26,7 +27,7 @@ const DetailPage = () => {
   }, [id]);
 
   return (
-    <Grid container>
+    <Grid className="detail-grid" container>
       <CardProduct producto={producto} />
     </Grid>
   );

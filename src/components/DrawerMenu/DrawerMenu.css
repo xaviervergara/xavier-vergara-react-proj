@@ -1,0 +1,18 @@
+.itemContainer {
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  height: 2em !important;
+  font-size: 2em;
+  font-family: monospace;
+  color: rgb(69, 155, 212);
+  align-items: center;
+  border-radius: 5px;
+  margin: 0.5em;
+}
+
+.itemContainer:hover {
+  background-color: rgb(97, 172, 241);
+  transition: 0.7s;
+  color: rgb(228, 184, 65);
+}

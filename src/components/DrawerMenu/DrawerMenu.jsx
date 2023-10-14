@@ -10,19 +10,10 @@ import ListItemText from '@mui/material/ListItemText';
 import MenuIcon from '@mui/icons-material/Menu';
 import IconoCubo from '../IconoCubo/IconoCubo';
 import { Link } from 'react-router-dom';
-import { useEffect, useState } from 'react';
+
+import './DrawerMenu.css';
 
 const DrawerMenu = () => {
-  // const [productos, setProductos] = useState([]);
-
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     fetch('/public/productos.json')
-  //       .then((response) => response.json())
-  //       .then((data) => setProductos(data));
-  //   }, 500);
-  // }, []);
-
   const [state, setState] = React.useState({
     left: false,
   });
@@ -42,6 +33,8 @@ const DrawerMenu = () => {
     <Box
       sx={{
         width: anchor === 'top' || anchor === 'bottom' ? 'auto' : 250,
+        backgroundColor: 'rgb(255, 255, 255)',
+        height: '100%',
       }}
       role="presentation"
       onClick={toggleDrawer(anchor, false)}
@@ -50,30 +43,43 @@ const DrawerMenu = () => {
       <List>
         <div
           style={{
-            color: 'red',
+            height: '2em',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            borderRadius: '5px',
+            color: 'rgb(228, 184, 65)',
             fontSize: '2em',
             margin: '1.5em',
             fontFamily: 'monospace',
-            backgroundColor: 'rgba(255,244,151,1)',
+            backgroundColor: 'rgb(97, 172, 241)',
           }}
         >
           Categorias
         </div>
 
         <Link to="/category/2x2">
-          <div>2x2</div>
+          <div className="itemContainer">
+            <IconoCubo /> 2x2
+          </div>
         </Link>
 
         <Link to="/category/3x3">
-          <div>3x3</div>
+          <div className="itemContainer">
+            <IconoCubo /> 3x3
+          </div>
         </Link>
 
         <Link to="/category/4x4">
-          <div>4x4</div>
+          <div className="itemContainer">
+            <IconoCubo /> 4x4
+          </div>
         </Link>
 
         <Link to="/category/5x5">
-          <div>5x5</div>
+          <div className="itemContainer">
+            <IconoCubo /> 5x5
+          </div>
         </Link>
       </List>
     </Box>

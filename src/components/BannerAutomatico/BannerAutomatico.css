@@ -1,0 +1,21 @@
+.banner-container {
+  width: 100%;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.banner-slider {
+  display: flex;
+  transition: transform 1s ease-in-out;
+  text-align: center;
+}
+
+.banner-slide {
+  flex: 0 0 100%;
+}
+
+.banner-slide img {
+  width: 1300px;
+  height: 650px;
+  border-radius: 25px;
+}

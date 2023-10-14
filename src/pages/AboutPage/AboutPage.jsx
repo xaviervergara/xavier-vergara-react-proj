@@ -24,21 +24,32 @@ const AboutPage = () => {
         >
           Nuestra Historia:
         </h2>
+
+        <h3
+          style={{
+            fontStyle: 'italic',
+            margin: '1em 0  1em',
+            fontFamily: 'monospace',
+            color: 'rgb(201, 190, 90)',
+          }}
+        >
+          {' '}
+          Descifrando la Pasión por los Cubos{' '}
+        </h3>
         <p>
-          Descifrando la Pasión por los Cubos Bienvenido a Q-Bing, el hogar de
-          los entusiastas del speedcubing y los amantes de los cubos Rubik de
-          todo el mundo. Nos complace compartir nuestra historia contigo, una
-          historia de pasión, dedicación y resolución de desafíos. En el corazón
-          de Q-Bing, se encuentra un equipo apasionado de cuberos que se embarcó
-          en una emocionante travesía hace más de una década. Comenzamos como un
-          grupo de amigos con una profunda admiración por los cubos Rubik y una
-          insaciable curiosidad por descifrar sus secretos. Nuestro viaje
-          comenzó con el simple objetivo de mejorar nuestros propios tiempos de
-          resolución, pero pronto nos dimos cuenta de que teníamos un llamado
-          más grande: compartir nuestra pasión y conocimiento con el mundo. Así
-          nació Q-Bing, una marca dedicada a ofrecer los cubos Rubik más
-          innovadores y de alta calidad para los speedcubers de todos los
-          niveles.
+          Bienvenido a Q-Bing, el hogar de los entusiastas del speedcubing y los
+          amantes de los cubos Rubik de todo el mundo. Nos complace compartir
+          nuestra historia contigo, una historia de pasión, dedicación y
+          resolución de desafíos. En el corazón de Q-Bing, se encuentra un
+          equipo apasionado de cuberos que se embarcó en una emocionante
+          travesía hace más de una década. Comenzamos como un grupo de amigos
+          con una profunda admiración por los cubos Rubik y una insaciable
+          curiosidad por descifrar sus secretos. Nuestro viaje comenzó con el
+          simple objetivo de mejorar nuestros propios tiempos de resolución,
+          pero pronto nos dimos cuenta de que teníamos un llamado más grande:
+          compartir nuestra pasión y conocimiento con el mundo. Así nació
+          Q-Bing, una marca dedicada a ofrecer los cubos Rubik más innovadores y
+          de alta calidad para los speedcubers de todos los niveles.
         </p>
         <h2
           style={{
