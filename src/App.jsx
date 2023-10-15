@@ -13,7 +13,7 @@ import ProductosPage from './pages/ProductosPage/Productos';
 import AboutPage from './pages/AboutPage/AboutPage';
 import ContactoPage from './pages/ContactoPage/ContactoPage';
 import DetailPage from './pages/DetailPage/DetailPage';
-import CategoryPage from './pages/Category/CategoryPage';
+import CategoryPage from './pages/CategoryPage/CategoryPage';
 
 function App() {
   return (

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import './BannerAutomatico.css';
 import imagen1 from '../../assets/fotografia_q-bing/foto_1.jpg';
 import imagen2 from '../../assets/fotografia_q-bing/foto_2.jpg';

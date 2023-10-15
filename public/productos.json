@@ -89,10 +89,146 @@
     },
     {
         "id": 12,
-        "nombre": "Cyclone boys ",
+        "nombre": "Cyclone boys",
         "descripcion": "Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original",
         "img": "https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=832&useDensity=true&width=1132&height=636.75&tipoEscala=contain",
         "precio": "$16.000",
         "categoria": "3x3"
+    },
+    {
+        "id": 13,
+        "nombre": "Moyu meilong 5x5x5",
+        "descripcion": "Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original",
+        "img": "https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=244&useDensity=true&width=1920&height=931&tipoEscala=contain",
+        "precio": "$ 17.300",
+        "categoria": "5x5"
+    },
+    {
+        "id": 14,
+        "nombre": "Moyu Mf 5x5x5 carbono",
+        "descripcion": "Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original",
+        "img": "https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=282&useDensity=true&width=1920&height=931&tipoEscala=contain",
+        "precio": "$ 17.300",
+        "categoria": "5x5"
+    },
+    {
+        "id": 15,
+        "nombre": "Qiyi 5x5x5",
+        "descripcion": "Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original",
+        "img": "https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=998&useDensity=true&width=1920&height=931&tipoEscala=contain",
+        "precio": "$ 17.300",
+        "categoria": "5x5"
+    },
+    {
+        "id": 16,
+        "nombre": "Fanxin windmill 4x4x4",
+        "descripcion": "Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original",
+        "img": "https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=104&useDensity=true&width=1920&height=931&tipoEscala=contain",
+        "precio": "$ 20.400",
+        "categoria": "4x4"
+    },
+    {
+        "id": 17,
+        "nombre": "Moyu meilong 4x4x4",
+        "descripcion": "Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original",
+        "img": "https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=236&useDensity=true&width=1920&height=931&tipoEscala=contain",
+        "precio": "$ 15.000",
+        "categoria": "4x4"
+    },
+    {
+        "id": 18,
+        "nombre": "Qiyi 4x4x4",
+        "descripcion": "Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original",
+        "img": "https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=888&useDensity=true&width=1920&height=931&tipoEscala=contain",
+        "precio": "$ 15.100",
+        "categoria": "4x4"
+    },
+    {
+        "id": 19,
+        "nombre": "Yj guansu 4x4x4",
+        "descripcion": "Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original",
+        "img": "https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=536&useDensity=true&width=1920&height=931&tipoEscala=contain",
+        "precio": "$ 15.000",
+        "categoria": "4x4"
+    },
+    {
+        "id": 20,
+        "nombre": "Monster go 3x3x3 (Gan)",
+        "descripcion": "Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original",
+        "img": "https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=194&useDensity=true&width=1920&height=931&tipoEscala=contain",
+        "precio": "$ 32.200",
+        "categoria": "3x3"
+    },
+    {
+        "id": 21,
+        "nombre": "Cubo rubik Heshu 3x3x3 cilindro",
+        "descripcion": "Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original",
+        "img": "https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=146&useDensity=true&width=1920&height=931&tipoEscala=contain",
+        "precio": "$ 11.700",
+        "categoria": "3x3"
+    },
+    {
+        "id": 22,
+        "nombre": "Fanxin 3x3x3 corner",
+        "descripcion": "Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original",
+        "img": "https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=52&useDensity=true&width=1920&height=931&tipoEscala=contain",
+        "precio": "$ 11.400",
+        "categoria": "3x3"
+    },
+    {
+        "id": 23,
+        "nombre": "Lefun venus 3x3x3",
+        "descripcion": "Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original",
+        "img": "https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=190&useDensity=true&width=941&height=917&tipoEscala=contain",
+        "precio": "$ 11.300",
+        "categoria": "3x3"
+    },
+    {
+        "id": 24,
+        "nombre": "Moyu megaminx carbono",
+        "descripcion": "Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original",
+        "img": "https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=272&useDensity=true&width=941&height=917&tipoEscala=contain",
+        "precio": "$ 17.300",
+        "categoria": "3x3"
+    },
+    {
+        "id": 25,
+        "nombre": "Moyu lingpo 2x2x2",
+        "descripcion": "Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original",
+        "img": "https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=216&useDensity=true&width=1920&height=931&tipoEscala=contain",
+        "precio": "$ 11.700",
+        "categoria": "2x2"
+    },
+    {
+        "id": 26,
+        "nombre": "Moyu meilong 2x2x2",
+        "descripcion": "Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original",
+        "img": "https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=648&useDensity=true&width=1920&height=931&tipoEscala=contain",
+        "precio": "$ 10.700",
+        "categoria": "2x2"
+    },
+    {
+        "id": 27,
+        "nombre": "Moyu meilong 2x2x2 M 2020 magnetico",
+        "descripcion": "Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original",
+        "img": "https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=830&useDensity=true&width=1920&height=931&tipoEscala=contain",
+        "precio": "$ 13.300",
+        "categoria": "2x2"
+    },
+    {
+        "id": 28,
+        "nombre": "Shengshou 2x2x2",
+        "descripcion": "Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original",
+        "img": "https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=438&useDensity=true&width=1920&height=931&tipoEscala=contain",
+        "precio": "$ 10.000",
+        "categoria": "2x2"
+    },
+    {
+        "id": 29,
+        "nombre": "Shengshou dino 2x2x2",
+        "descripcion": "Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original",
+        "img": "https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=956&useDensity=true&width=941&height=901&tipoEscala=contain",
+        "precio": "$ 11.100",
+        "categoria": "2x2"
     }
 ]
