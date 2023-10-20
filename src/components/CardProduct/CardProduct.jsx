@@ -12,12 +12,7 @@ const CardProduct = ({ producto }) => {
     // <Card sx={{ maxWidth: 345 }}>
     <Card style={{ width: '20rem', margin: '1em', height: '23em' }}>
       <CardActionArea>
-        <CardMedia
-          component="img"
-          height="180"
-          image={img}
-          alt="green iguana"
-        />
+        <CardMedia component="img" height="180" image={img} alt={nombre} />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
             {nombre}
