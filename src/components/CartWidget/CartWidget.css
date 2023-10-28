@@ -9,8 +9,9 @@
   display: flex;
   align-items: center;
   font-size: 2em;
-  color: rgb(252, 255, 70);
+  color: white;
   margin-left: 0.3em;
+  font-family: monospace;
 }
 /* rgb(230, 96, 96); */
 .carrito-counter {

@@ -1,14 +1,13 @@
 import './DetailPage.css';
 import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
 import { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
-import { useNavigate } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import IncDecButtons from '../../components/IncDecButtons/IncDecButtons';
 
 const DetailPage = () => {
   let { id } = useParams();
 
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   const [producto, setProducto] = useState([]);
 

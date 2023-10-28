@@ -1,10 +1,12 @@
-import { useState } from 'react';
+import { useState, useContext } from 'react';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import './CartWidget.css';
 import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
+import { QuantityContext } from '../../context/QuantityContext';
 
 const CartWidget = () => {
-  const [counter, setCounter] = useState(0);
+  let { quantity } = useContext(QuantityContext);
+  let [counter, setCounter] = useState(0);
 
   // const handleIncrement = () => {
   //   setCounter(counter + 1);
@@ -13,12 +15,7 @@ const CartWidget = () => {
   return (
     <Grid className="container-icon">
       <ShoppingCartIcon style={{ fontSize: '2em', color: 'white' }} />
-      <div className="cantidad-carrito">
-        {counter}
-        {/* <button onClick={handleIncrement} className="carrito-counter">
-          +
-        </button> */}
-      </div>
+      <div className="cantidad-carrito">{quantity}</div>
     </Grid>
   );
 };

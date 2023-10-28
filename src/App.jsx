@@ -15,22 +15,28 @@ import ContactoPage from './pages/ContactoPage/ContactoPage';
 import DetailPage from './pages/DetailPage/DetailPage';
 import CategoryPage from './pages/CategoryPage/CategoryPage';
 
+//QUANTITY PROVIDER
+
+import { QuantityProvider } from './context/QuantityContext';
+
 function App() {
   return (
-    <Router>
-      <div>
-        <NavBar />
+    <QuantityProvider>
+      <Router>
+        <div>
+          <NavBar />
 
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/productos" element={<ProductosPage />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/contacto" element={<ContactoPage />} />
-          <Route path="/detail/:id" element={<DetailPage />} />
-          <Route path="/category/:categoryId" element={<CategoryPage />} />
-        </Routes>
-      </div>
-    </Router>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/productos" element={<ProductosPage />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/contacto" element={<ContactoPage />} />
+            <Route path="/detail/:id" element={<DetailPage />} />
+            <Route path="/category/:categoryId" element={<CategoryPage />} />
+          </Routes>
+        </div>
+      </Router>
+    </QuantityProvider>
   );
 }
 
