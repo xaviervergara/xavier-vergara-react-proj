@@ -5,10 +5,10 @@ import { QuantityContext } from '../../context/QuantityContext';
 const IncDecButtons = () => {
   let { quantity, setQuantity } = useContext(QuantityContext);
 
-  console.log(quantity);
+  // console.log(quantity);
 
   const handleDecrement = () => {
-    if (quantity > 0) {
+    if (quantity > 1) {
       setQuantity(quantity - 1);
     }
   };

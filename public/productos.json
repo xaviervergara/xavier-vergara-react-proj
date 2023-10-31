@@ -5,7 +5,8 @@
         "descripcion": "Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original",
         "img": "https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=138&useDensity=true&width=1903&height=931&tipoEscala=contain",
         "precio": "$ 29.700,00",
-        "categoria": "3x3"
+        "categoria": "3x3",
+        "stock": 5
     },
     {
         "id": 2,
@@ -13,7 +14,8 @@
         "descripcion": "Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original",
         "img": "https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=828&useDensity=true&width=1903&height=931&tipoEscala=contain",
         "precio": "$16.000,00",
-        "categoria": "3x3"
+        "categoria": "3x3",
+        "stock": 5
     },
     {
         "id": 3,
@@ -21,7 +23,8 @@
         "descripcion": "Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original",
         "img": "https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=970&useDensity=true&width=1920&height=931&tipoEscala=contain",
         "precio": "$ 11.400,00",
-        "categoria": "3x3"
+        "categoria": "3x3",
+        "stock": 5
     },
     {
         "id": 4,
@@ -29,7 +32,8 @@
         "descripcion": "Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original",
         "img": "https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=302&useDensity=true&width=1920&height=931&tipoEscala=contain",
         "precio": "$13.700",
-        "categoria": "3x3"
+        "categoria": "3x3",
+        "stock": 5
     },
     {
         "id": 5,
@@ -37,7 +41,8 @@
         "descripcion": "Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original",
         "img": "https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=70&useDensity=true&width=1920&height=931&tipoEscala=contain",
         "precio": "$18.200",
-        "categoria": "4x4"
+        "categoria": "4x4",
+        "stock": 5
     },
     {
         "id": 6,
@@ -45,7 +50,8 @@
         "descripcion": "Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original",
         "img": "https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=20&useDensity=true&width=1920&height=931&tipoEscala=contain",
         "precio": "$12.400",
-        "categoria": "4x4"
+        "categoria": "4x4",
+        "stock": 5
     },
     {
         "id": 7,
@@ -53,7 +59,8 @@
         "descripcion": "Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original",
         "img": "https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=722&useDensity=true&width=1920&height=931&tipoEscala=contain",
         "precio": "$9.300",
-        "categoria": "2x2"
+        "categoria": "2x2",
+        "stock": 5
     },
     {
         "id": 8,
@@ -61,7 +68,8 @@
         "descripcion": "Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original",
         "img": "https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=6&useDensity=true&width=1920&height=931&tipoEscala=contain",
         "precio": "$9.900",
-        "categoria": "3x3"
+        "categoria": "3x3",
+        "stock": 10
     },
     {
         "id": 9,
@@ -69,7 +77,8 @@
         "descripcion": "Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original",
         "img": "https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=240&useDensity=true&width=1920&height=931&tipoEscala=contain",
         "precio": "$18.000",
-        "categoria": "5x5"
+        "categoria": "5x5",
+        "stock": 10
     },
     {
         "id": 10,
@@ -77,7 +86,8 @@
         "descripcion": "Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original",
         "img": "https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=90&useDensity=true&width=1920&height=931&tipoEscala=contain",
         "precio": "$10.150",
-        "categoria": "3x3"
+        "categoria": "3x3",
+        "stock": 10
     },
     {
         "id": 11,
@@ -85,7 +95,8 @@
         "descripcion": "Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original",
         "img": "https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=60&useDensity=true&width=1903&height=931&tipoEscala=contain",
         "precio": "$18.200",
-        "categoria": "4x4"
+        "categoria": "4x4",
+        "stock": 10
     },
     {
         "id": 12,
@@ -93,7 +104,8 @@
         "descripcion": "Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original",
         "img": "https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=832&useDensity=true&width=1132&height=636.75&tipoEscala=contain",
         "precio": "$16.000",
-        "categoria": "3x3"
+        "categoria": "3x3",
+        "stock": 10
     },
     {
         "id": 13,
@@ -101,7 +113,8 @@
         "descripcion": "Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original",
         "img": "https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=244&useDensity=true&width=1920&height=931&tipoEscala=contain",
         "precio": "$ 17.300",
-        "categoria": "5x5"
+        "categoria": "5x5",
+        "stock": 10
     },
     {
         "id": 14,
@@ -109,7 +122,8 @@
         "descripcion": "Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original",
         "img": "https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=282&useDensity=true&width=1920&height=931&tipoEscala=contain",
         "precio": "$ 17.300",
-        "categoria": "5x5"
+        "categoria": "5x5",
+        "stock": 10
     },
     {
         "id": 15,
@@ -117,7 +131,8 @@
         "descripcion": "Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original",
         "img": "https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=998&useDensity=true&width=1920&height=931&tipoEscala=contain",
         "precio": "$ 17.300",
-        "categoria": "5x5"
+        "categoria": "5x5",
+        "stock": 10
     },
     {
         "id": 16,
@@ -125,7 +140,8 @@
         "descripcion": "Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original",
         "img": "https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=104&useDensity=true&width=1920&height=931&tipoEscala=contain",
         "precio": "$ 20.400",
-        "categoria": "4x4"
+        "categoria": "4x4",
+        "stock": 10
     },
     {
         "id": 17,
@@ -133,7 +149,8 @@
         "descripcion": "Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original",
         "img": "https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=236&useDensity=true&width=1920&height=931&tipoEscala=contain",
         "precio": "$ 15.000",
-        "categoria": "4x4"
+        "categoria": "4x4",
+        "stock": 10
     },
     {
         "id": 18,
@@ -141,7 +158,8 @@
         "descripcion": "Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original",
         "img": "https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=888&useDensity=true&width=1920&height=931&tipoEscala=contain",
         "precio": "$ 15.100",
-        "categoria": "4x4"
+        "categoria": "4x4",
+        "stock": 10
     },
     {
         "id": 19,
@@ -149,7 +167,8 @@
         "descripcion": "Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original",
         "img": "https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=536&useDensity=true&width=1920&height=931&tipoEscala=contain",
         "precio": "$ 15.000",
-        "categoria": "4x4"
+        "categoria": "4x4",
+        "stock": 25
     },
     {
         "id": 20,
@@ -157,7 +176,8 @@
         "descripcion": "Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original",
         "img": "https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=194&useDensity=true&width=1920&height=931&tipoEscala=contain",
         "precio": "$ 32.200",
-        "categoria": "3x3"
+        "categoria": "3x3",
+        "stock": 25
     },
     {
         "id": 21,
@@ -165,7 +185,8 @@
         "descripcion": "Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original",
         "img": "https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=146&useDensity=true&width=1920&height=931&tipoEscala=contain",
         "precio": "$ 11.700",
-        "categoria": "3x3"
+        "categoria": "3x3",
+        "stock": 25
     },
     {
         "id": 22,
@@ -173,7 +194,8 @@
         "descripcion": "Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original",
         "img": "https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=52&useDensity=true&width=1920&height=931&tipoEscala=contain",
         "precio": "$ 11.400",
-        "categoria": "3x3"
+        "categoria": "3x3",
+        "stock": 25
     },
     {
         "id": 23,
@@ -181,7 +203,8 @@
         "descripcion": "Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original",
         "img": "https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=190&useDensity=true&width=941&height=917&tipoEscala=contain",
         "precio": "$ 11.300",
-        "categoria": "3x3"
+        "categoria": "3x3",
+        "stock": 25
     },
     {
         "id": 24,
@@ -189,7 +212,8 @@
         "descripcion": "Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original",
         "img": "https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=272&useDensity=true&width=941&height=917&tipoEscala=contain",
         "precio": "$ 17.300",
-        "categoria": "3x3"
+        "categoria": "3x3",
+        "stock": 25
     },
     {
         "id": 25,
@@ -197,7 +221,8 @@
         "descripcion": "Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original",
         "img": "https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=216&useDensity=true&width=1920&height=931&tipoEscala=contain",
         "precio": "$ 11.700",
-        "categoria": "2x2"
+        "categoria": "2x2",
+        "stock": 25
     },
     {
         "id": 26,
@@ -205,7 +230,8 @@
         "descripcion": "Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original",
         "img": "https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=648&useDensity=true&width=1920&height=931&tipoEscala=contain",
         "precio": "$ 10.700",
-        "categoria": "2x2"
+        "categoria": "2x2",
+        "stock": 25
     },
     {
         "id": 27,
@@ -213,7 +239,8 @@
         "descripcion": "Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original",
         "img": "https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=830&useDensity=true&width=1920&height=931&tipoEscala=contain",
         "precio": "$ 13.300",
-        "categoria": "2x2"
+        "categoria": "2x2",
+        "stock": 25
     },
     {
         "id": 28,
@@ -221,7 +248,8 @@
         "descripcion": "Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original",
         "img": "https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=438&useDensity=true&width=1920&height=931&tipoEscala=contain",
         "precio": "$ 10.000",
-        "categoria": "2x2"
+        "categoria": "2x2",
+        "stock": 25
     },
     {
         "id": 29,
@@ -229,6 +257,7 @@
         "descripcion": "Excelente cubo uno de los mas nuevos de la marca. Es magnético. Incluye base Moyu, destornillador de ajuste, folleteria original",
         "img": "https://ss-static-01.esmsv.com/id/168096/productos/obtenerimagen/?id=956&useDensity=true&width=941&height=901&tipoEscala=contain",
         "precio": "$ 11.100",
-        "categoria": "2x2"
+        "categoria": "2x2",
+        "stock": 25
     }
 ]

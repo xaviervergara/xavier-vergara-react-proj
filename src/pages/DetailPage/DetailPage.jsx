@@ -1,10 +1,15 @@
-import './DetailPage.css';
-import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
-import { useEffect, useState } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
-import IncDecButtons from '../../components/IncDecButtons/IncDecButtons';
+import "./DetailPage.css";
+import {  useContext } from 'react';
+
+import Grid from "@mui/material/Unstable_Grid2"; // Grid version 2
+import { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
+import IncDecButtons from "../../components/IncDecButtons/IncDecButtons";
+import { QuantityContext } from '../../context/QuantityContext';
 
 const DetailPage = () => {
+  let { quantity } = useContext(QuantityContext);
+
   let { id } = useParams();
 
   // const navigate = useNavigate();
@@ -14,8 +19,8 @@ const DetailPage = () => {
   useEffect(() => {
     fetch(`/public/productos.json`, {
       headers: {
-        'Content-Type': 'application/json',
-        Accept: 'application.json',
+        "Content-Type": "application/json",
+        Accept: "application.json",
       },
     })
       .then((response) => response.json())
@@ -40,7 +45,15 @@ const DetailPage = () => {
           <IncDecButtons />
         </div>
         <div className="addToCartContainer">
-          <button className="addToCartButton"> Agregar al carrito</button>
+          <button
+            onClick={() => {
+              console.log(quantity);
+            }}
+            className="addToCartButton"
+          >
+            {" "}
+            Agregar al carrito
+          </button>
         </div>
       </div>
     </Grid>
