@@ -33,3 +33,38 @@
   color: white;
   width: 2em;
 }
+
+/* ///////////////////////////////// */
+
+.addToCartContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 1em;
+}
+
+.addToCartButton {
+  height: 3em;
+  width: 13.2em;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(78, 145, 223);
+  font-weight: bold;
+  font-family: monospace;
+  color: white;
+  font-size: 1.3em;
+  transition: 0.5s;
+}
+
+.addToCartButton:hover {
+  background-color: white;
+  color: rgb(78, 145, 223);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.addToCartButton:active {
+  background-color: rgb(151, 188, 236);
+  transition: 0.1s;
+  color: white;
+}

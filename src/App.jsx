@@ -14,18 +14,18 @@ import AboutPage from './pages/AboutPage/AboutPage';
 import ContactoPage from './pages/ContactoPage/ContactoPage';
 import DetailPage from './pages/DetailPage/DetailPage';
 import CategoryPage from './pages/CategoryPage/CategoryPage';
+import CarritoPage from './pages/CarritoPage/CarritoPage';
 
 //QUANTITY PROVIDER
 
-import { QuantityProvider } from './context/QuantityContext';
+import { CarritoProvider } from './context/CarritoContext';
 
 function App() {
   return (
-    <QuantityProvider>
+    <CarritoProvider>
       <Router>
         <div>
           <NavBar />
-
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/productos" element={<ProductosPage />} />
@@ -33,10 +33,11 @@ function App() {
             <Route path="/contacto" element={<ContactoPage />} />
             <Route path="/detail/:id" element={<DetailPage />} />
             <Route path="/category/:categoryId" element={<CategoryPage />} />
+            <Route path="/carrito" element={<CarritoPage />} />
           </Routes>
         </div>
       </Router>
-    </QuantityProvider>
+    </CarritoProvider>
   );
 }
 

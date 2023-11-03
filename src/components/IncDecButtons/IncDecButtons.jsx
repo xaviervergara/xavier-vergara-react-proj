@@ -1,35 +1,38 @@
 import './IncDecButtons.css';
-import { useContext } from 'react';
-import { QuantityContext } from '../../context/QuantityContext';
+import { useContext, useState } from 'react';
+// import { QuantityContext } from '../../context/QuantityContext';
 
-const IncDecButtons = () => {
-  let { quantity, setQuantity } = useContext(QuantityContext);
-
-  // console.log(quantity);
-
-  const handleDecrement = () => {
-    if (quantity > 1) {
-      setQuantity(quantity - 1);
-    }
-  };
-  const handleIncrement = () => {
-    setQuantity(quantity + 1);
-  };
+const IncDecButtons = ({
+  agregarAlCarrito,
+  handleDecrement,
+  handleIncrement,
+  cantidad,
+}) => {
+  // let { quantity, setQuantity } = useContext(QuantityContext);
 
   return (
     <div
       style={{
         display: 'flex',
         justifyContent: 'center',
+        flexDirection: 'column',
       }}
     >
-      <button className="incDecButtons" onClick={handleDecrement}>
-        -
-      </button>
-      <div className="cantidad"> {quantity}</div>
-      <button className="incDecButtons" onClick={handleIncrement}>
-        +
-      </button>
+      <div style={{ display: 'flex' }}>
+        <button className="incDecButtons" onClick={handleDecrement}>
+          -
+        </button>
+        <div className="cantidad"> {cantidad}</div>
+        <button className="incDecButtons" onClick={handleIncrement}>
+          +
+        </button>
+      </div>
+
+      <div className="addToCartContainer">
+        <button className="addToCartButton" onClick={agregarAlCarrito}>
+          Agregar al carrito
+        </button>
+      </div>
     </div>
   );
 };

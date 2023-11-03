@@ -1,26 +1,28 @@
-import "./DetailPage.css";
-import {  useContext } from 'react';
+import './DetailPage.css';
+import { useContext } from 'react';
 
-import Grid from "@mui/material/Unstable_Grid2"; // Grid version 2
-import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
-import IncDecButtons from "../../components/IncDecButtons/IncDecButtons";
+import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
+import { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
+import IncDecButtons from '../../components/IncDecButtons/IncDecButtons';
 import { QuantityContext } from '../../context/QuantityContext';
+import { CarritoContext } from '../../context/CarritoContext';
 
 const DetailPage = () => {
-  let { quantity } = useContext(QuantityContext);
+  // let { quantity } = useContext(QuantityContext);
+  let { carrito, agregarAlCarrito } = useContext(CarritoContext);
+  console.log(carrito);
 
   let { id } = useParams();
 
-  // const navigate = useNavigate();
-
   const [producto, setProducto] = useState([]);
 
+  //llamada a la base de datos para pedir el producto
   useEffect(() => {
     fetch(`/public/productos.json`, {
       headers: {
-        "Content-Type": "application/json",
-        Accept: "application.json",
+        'Content-Type': 'application/json',
+        Accept: 'application.json',
       },
     })
       .then((response) => response.json())
@@ -30,6 +32,17 @@ const DetailPage = () => {
         }, 500)
       );
   }, [id]);
+
+  //estado cantidad
+  const [cantidad, setCantidad] = useState(1);
+  // funcion sumar cantidad al carrito
+  const handleDecrement = () => {
+    cantidad > 1 && setCantidad(cantidad - 1);
+  };
+  // funcion restar cantidad al carrito
+  const handleIncrement = () => {
+    producto.stock > cantidad && setCantidad(cantidad + 1);
+  };
 
   return (
     <Grid className="detail-container">
@@ -42,18 +55,14 @@ const DetailPage = () => {
         <div className="detail_category"> Categoria: {producto.categoria}</div>
         <div className="detail_price">{producto.precio}</div>
         <div className="incDecbuttons">
-          <IncDecButtons />
-        </div>
-        <div className="addToCartContainer">
-          <button
-            onClick={() => {
-              console.log(quantity);
+          <IncDecButtons
+            cantidad={cantidad}
+            handleDecrement={handleDecrement}
+            handleIncrement={handleIncrement}
+            agregarAlCarrito={() => {
+              agregarAlCarrito(producto, cantidad);
             }}
-            className="addToCartButton"
-          >
-            {" "}
-            Agregar al carrito
-          </button>
+          />
         </div>
       </div>
     </Grid>
