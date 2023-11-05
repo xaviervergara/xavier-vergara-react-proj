@@ -1,29 +1,40 @@
-import './CarritoPage.css';
-import { useContext } from 'react';
-import { CarritoContext } from '../../context/CarritoContext';
-import { Link } from 'react-router-dom';
+import "./CarritoPage.css";
+import { useContext } from "react";
+import { CarritoContext } from "../../context/CarritoContext";
+import { Link } from "react-router-dom";
+import DeleteOutlineOutlinedIcon from "@mui/icons-material/DeleteOutlineOutlined";
 
 const CarritoPage = () => {
-  let { carrito } = useContext(CarritoContext);
+  let { carrito, precioTotal, vaciarCarrito, eliminarProducto } =
+    useContext(CarritoContext);
 
   return (
     <div
       style={{
-        display: 'flex',
-        flexDirection: 'column',
-        fontFamily: 'monospace',
+        display: "flex",
+        flexDirection: "column",
+        fontFamily: "monospace",
       }}
     >
-      <h1
+      <div
         style={{
-          textAlign: 'center',
-          color: 'orange',
-          border: '1px solid white',
-          borderRadius: '15px',
+          display: "flex",
+          justifyContent: "center",
         }}
       >
-        Tu carrito
-      </h1>
+        <h1
+          style={{
+            backgroundColor: "rgb(77, 146, 115)",
+            fontFamily: "monospace",
+            borderRadius: "5px",
+            color: "white",
+            padding: ".3em",
+            margin: ".5em",
+          }}
+        >
+          Tu carrito
+        </h1>
+      </div>
 
       <div className="main-lista">
         {carrito.map((prod) => {
@@ -44,9 +55,51 @@ const CarritoPage = () => {
               <div className="caracteristica-producto">
                 Cantidad: {prod.cantidad}
               </div>
+              <div className="caracteristica-producto">
+                <button
+                  onClick={() => eliminarProducto(prod)}
+                  className="boton-delete"
+                >
+                  <DeleteOutlineOutlinedIcon
+                    sx={{
+                      color: "white",
+                      border: "none",
+                      cursor: "pointer",
+                    }}
+                  />
+                </button>
+              </div>
             </div>
           );
         })}
+      </div>
+      <div className="precio-total-main">
+        <div className="vaciar-carrito">
+          {carrito.length > 0 && (
+            <button
+              className="boton-vaciar-carrito"
+              onClick={() => vaciarCarrito()}
+            >
+              Vaciar carrito
+            </button>
+          )}
+        </div>
+        {carrito.length > 0 && (
+          <div className="precio-total">Precio total: $ {precioTotal()}</div>
+        )}
+      </div>
+      <div
+        style={{
+          marginRight: "2.6em",
+          marginBottom: "2em",
+          display: "flex",
+          justifyContent: "flex-end",
+          fontSize: "1.2em",
+        }}
+      >
+        <Link to="/checkout">
+          <button className="boton-vaciar-carrito">Finalizar compra</button>
+        </Link>
       </div>
     </div>
   );
