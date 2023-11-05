@@ -1,0 +1,53 @@
+.mainFormulario {
+  width: 40%;
+  /* border: 1px solid red; */
+  margin-left: 2em;
+  margin-top: 2em;
+  border-radius: 25px;
+  background-color: rgba(100, 100, 98, 0.404);
+}
+.main-title {
+  font-family: monospace;
+  font-size: 3em;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 0.5em;
+  margin-left: 0.5em;
+  margin-top: 1em;
+  color: white;
+}
+
+.form-input {
+  height: 3em;
+  margin: 1em;
+  width: 50%;
+  border-radius: 5px;
+  border-style: none;
+  padding-left: 1em;
+}
+
+.form-input:focus {
+  outline: none;
+}
+
+.boton-formulario {
+  height: 3em;
+  width: 20%;
+  margin: 1em;
+  font-family: monospace;
+  background-color: rgb(116, 159, 243);
+  border-style: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+}
+
+.boton-formulario:active {
+  background-color: white;
+  transition: 0.2s;
+  color: rgb(116, 159, 243);
+}
+
+.boton-formulario:hover {
+  cursor: pointer;
+}
