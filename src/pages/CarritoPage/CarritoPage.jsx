@@ -1,8 +1,8 @@
-import "./CarritoPage.css";
-import { useContext } from "react";
-import { CarritoContext } from "../../context/CarritoContext";
-import { Link } from "react-router-dom";
-import DeleteOutlineOutlinedIcon from "@mui/icons-material/DeleteOutlineOutlined";
+import './CarritoPage.css';
+import { useContext } from 'react';
+import { CarritoContext } from '../../context/CarritoContext';
+import { Link } from 'react-router-dom';
+import DeleteOutlineOutlinedIcon from '@mui/icons-material/DeleteOutlineOutlined';
 
 const CarritoPage = () => {
   let { carrito, precioTotal, vaciarCarrito, eliminarProducto } =
@@ -11,25 +11,25 @@ const CarritoPage = () => {
   return (
     <div
       style={{
-        display: "flex",
-        flexDirection: "column",
-        fontFamily: "monospace",
+        display: 'flex',
+        flexDirection: 'column',
+        fontFamily: 'monospace',
       }}
     >
       <div
         style={{
-          display: "flex",
-          justifyContent: "center",
+          display: 'flex',
+          justifyContent: 'center',
         }}
       >
         <h1
           style={{
-            backgroundColor: "rgb(77, 146, 115)",
-            fontFamily: "monospace",
-            borderRadius: "5px",
-            color: "white",
-            padding: ".3em",
-            margin: ".5em",
+            backgroundColor: 'rgb(77, 146, 115)',
+            fontFamily: 'monospace',
+            borderRadius: '5px',
+            color: 'white',
+            padding: '.3em',
+            margin: '.5em',
           }}
         >
           Tu carrito
@@ -62,9 +62,9 @@ const CarritoPage = () => {
                 >
                   <DeleteOutlineOutlinedIcon
                     sx={{
-                      color: "white",
-                      border: "none",
-                      cursor: "pointer",
+                      color: 'white',
+                      border: 'none',
+                      cursor: 'pointer',
                     }}
                   />
                 </button>
@@ -88,19 +88,21 @@ const CarritoPage = () => {
           <div className="precio-total">Precio total: $ {precioTotal()}</div>
         )}
       </div>
-      <div
-        style={{
-          marginRight: "2.6em",
-          marginBottom: "2em",
-          display: "flex",
-          justifyContent: "flex-end",
-          fontSize: "1.2em",
-        }}
-      >
-        <Link to="/checkout">
-          <button className="boton-vaciar-carrito">Finalizar compra</button>
-        </Link>
-      </div>
+      {carrito.length > 0 && (
+        <div
+          style={{
+            marginRight: '2.6em',
+            marginBottom: '2em',
+            display: 'flex',
+            justifyContent: 'flex-end',
+            fontSize: '1.2em',
+          }}
+        >
+          <Link to="/checkout">
+            <button className="boton-vaciar-carrito">Finalizar compra</button>
+          </Link>
+        </div>
+      )}
     </div>
   );
 };

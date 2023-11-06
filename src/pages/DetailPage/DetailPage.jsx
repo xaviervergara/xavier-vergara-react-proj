@@ -1,13 +1,13 @@
-import "./DetailPage.css";
-import { useContext } from "react";
+import './DetailPage.css';
+import { useContext } from 'react';
 
-import Grid from "@mui/material/Unstable_Grid2"; // Grid version 2
-import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
-import IncDecButtons from "../../components/IncDecButtons/IncDecButtons";
-import { CarritoContext } from "../../context/CarritoContext";
-import { collection, getDocs } from "firebase/firestore";
-import { dataBase } from "../../firebase/config";
+import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
+import { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
+import IncDecButtons from '../../components/IncDecButtons/IncDecButtons';
+import { CarritoContext } from '../../context/CarritoContext';
+import { collection, getDocs } from 'firebase/firestore';
+import { dataBase } from '../../firebase/config';
 
 const DetailPage = () => {
   let { carrito, agregarAlCarrito } = useContext(CarritoContext);
@@ -18,7 +18,7 @@ const DetailPage = () => {
 
   //llamada a la base de datos para pedir el producto
   useEffect(() => {
-    const productosRef = collection(dataBase, "productos");
+    const productosRef = collection(dataBase, 'productos');
 
     getDocs(productosRef).then((resp) => {
       const contenedorProductos = resp.docs.map((doc) => {
@@ -66,7 +66,7 @@ const DetailPage = () => {
         <div className="detail_price">
           {producto.precio !== undefined
             ? `$${producto.precio.toFixed(3)}`
-            : "Precio no disponible"}
+            : 'Precio no disponible'}
         </div>
         <div className="incDecbuttons">
           <IncDecButtons

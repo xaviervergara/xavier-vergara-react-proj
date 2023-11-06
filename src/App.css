@@ -13,7 +13,7 @@ body {
 }
 
 main {
-  border: 1px solid violet;
+  /* border: 1px solid violet; */
   display: flex;
   justify-content: center;
   color: violet;
